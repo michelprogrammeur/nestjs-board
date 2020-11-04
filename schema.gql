@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type TaskType {
+  uuid: String!
+  title: String
+  content: String
+  status: String
+  createdAt: String!
+  updatedAt: String
+}
+
+type Query {
+  tasks(size: Int!, offsetStart: Int!): [TaskType!]!
+}
